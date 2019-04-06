@@ -1,13 +1,13 @@
 import React from "react";
 import "./Toolbar.css";
 
+import ToolbarLogo from "../ToolbarLogo/ToolbarLogo";
+
 class Toolbar extends React.Component {
   render() {
     return (
       <div className="Toolbar">
-        <h4>
-          <b>AL</b>
-        </h4>
+        <ToolbarLogo />
       </div>
     );
   }
