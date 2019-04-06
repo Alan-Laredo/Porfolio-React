@@ -1,5 +1,5 @@
 :root {
-  --toolbar-height: 100px;
+  --toolbar-height: 80px;
 }
 
 .Toolbar {
@@ -13,4 +13,5 @@
   box-sizing: border-box;
 
   overflow: hidden;
+  /* background-color: red; */
 }
