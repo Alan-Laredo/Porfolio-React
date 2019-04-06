@@ -1,0 +1,10 @@
+.ToolbarSpacer {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0px 30px;
+  flex-grow: 1;
+  text-transform: uppercase;
+  min-width: 0;
+
+  /* background-color: black; */
+}

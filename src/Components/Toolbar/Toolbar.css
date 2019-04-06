@@ -11,6 +11,7 @@
   height: var(--toolbar-height);
   padding: 0;
   box-sizing: border-box;
+  display: flex;
 
   overflow: hidden;
   /* background-color: red; */
