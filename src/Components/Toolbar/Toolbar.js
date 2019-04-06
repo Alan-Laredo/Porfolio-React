@@ -13,7 +13,7 @@ class Toolbar extends React.Component {
         <ToolbarItem>Design</ToolbarItem>
         <ToolbarItem>Development</ToolbarItem>
         <ToolbarItem>Photography</ToolbarItem>
-        <ToolbarSpacer>Spacer</ToolbarSpacer>
+        <ToolbarSpacer />
         <ToolbarItem>Contact</ToolbarItem>
       </div>
     );
