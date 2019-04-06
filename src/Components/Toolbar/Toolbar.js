@@ -2,12 +2,16 @@ import React from "react";
 import "./Toolbar.css";
 
 import ToolbarLogo from "../ToolbarLogo/ToolbarLogo";
+import ToolbarItem from "../ToolbarItem/ToolbarItem";
 
 class Toolbar extends React.Component {
   render() {
     return (
       <div className="Toolbar">
         <ToolbarLogo />
+        <ToolbarItem>Design</ToolbarItem>
+        <ToolbarItem>Development</ToolbarItem>
+        <ToolbarItem>Photography</ToolbarItem>
       </div>
     );
   }

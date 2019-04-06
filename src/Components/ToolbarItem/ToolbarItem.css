@@ -1,0 +1,6 @@
+.ToolbarItem {
+  display: inline-block;
+  line-height: 80px;
+  padding: 0px 30px;
+  text-transform: uppercase;
+}
