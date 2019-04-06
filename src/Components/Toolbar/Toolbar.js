@@ -3,7 +3,13 @@ import "./Toolbar.css";
 
 class Toolbar extends React.Component {
   render() {
-    return <div className="Toolbar">Toolbar</div>;
+    return (
+      <div className="Toolbar">
+        <h4>
+          <b>AL</b>
+        </h4>
+      </div>
+    );
   }
 }
 
