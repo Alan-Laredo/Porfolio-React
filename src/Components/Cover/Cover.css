@@ -15,17 +15,38 @@
   overflow-x: hidden;
 }
 
+.Cover * {
+  margin: 0;
+  padding: 0;
+
+  cursor: default;
+}
+
 .Cover {
   position: relative;
-
   box-sizing: border-box;
+
   width: 100vw;
   min-height: 100vh;
-  padding: 30vw 0 5vw;
+  padding: calc(50vh - 3rem) 0 5vw;
+
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 0.2em;
 }
 
 .Cover h1 {
-  margin-top: -100px;
+  /* margin-top: calc(-10vh - calc(3rem / 2)); */
+  font-size: 3rem;
+}
+.Cover p {
+}
+.Cover h1,
+.Cover p {
+  max-width: calc(50vw - calc(50px * 2));
+  padding-right: 50px;
+  padding-left: 50px;
+  letter-spacing: 0.2em;
 }
 
 .Cover,
@@ -42,7 +63,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  /* height: 100vh; */
 
   background-image: url("./Cover.jpg");
   background-position: center;
@@ -51,22 +72,13 @@
 
   transform-origin: center center 0;
   transform: translateZ(-1px) scale(2);
+  /* overflow: hidden; */
   z-index: -1;
 }
 
-.Cover * {
-  margin: 0;
-  padding: 1em 0;
-
-  font-weight: normal;
-  text-align: center;
-  letter-spacing: 0.2em;
+::selection {
+  background: #aaa; /* WebKit/Blink Browsers */
 }
-
-/*
-Layout Properties (position, float, clear, display)
-Box Model Properties (width, height, margin, padding)
-Visual Properties (color, background, border, box-shadow)
-Typography Properties (font-size, font-family, text-align, text-transform)
-Misc Properties (cursor, overflow, z-index)
-*/
+::-moz-selection {
+  background: #aaa; /* Gecko Browsers */
+}

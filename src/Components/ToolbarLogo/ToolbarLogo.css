@@ -2,5 +2,16 @@
   padding: 22px 20px;
   height: 80px;
   float: left;
-  font-size: 24px;
+  background-color: transparent;
+
+  font-size: 1.7em;
+
+  transition: 0.3s ease-in;
+}
+
+.ToolbarLogo:hover {
+  background-color: white;
+  color: black;
+  transition: 0.3s ease-in;
+  cursor: pointer;
 }
