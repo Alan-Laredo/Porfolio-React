@@ -2,7 +2,7 @@
   "name": "porftolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Alan-Laredo.github.io/project-react",
+  "homepage": "https://alan-laredo.github.io/Porfolio-React/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
