@@ -68,6 +68,11 @@
   color: white;
   vertical-align: middle;
 }
+.icons a i:hover {
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
 
 .Cover,
 .Cover:before {
@@ -135,5 +140,18 @@
   100% {
     transform: translateY(36px) scaleY(2);
     opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scaleY(1) scaleX(1);
+  }
+
+  50% {
+    transform: scaleY(1.25) scaleX(1.25);
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
   }
 }
