@@ -1,3 +1,25 @@
 .Toolbar {
   z-index: 10;
 }
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070707;
+}
+::-webkit-scrollbar-track-piece {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  right: 20px;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #aaaaaa40;
+}
