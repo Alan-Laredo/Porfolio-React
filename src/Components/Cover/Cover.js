@@ -9,13 +9,13 @@ export default class Cover extends Component {
           <h1>Hi! I'm Alan</h1>
           <p>I'm a Junior Front-end Developer and Designer</p>
           <div className="icons">
-            <a href="https://github.com/Alan-Laredo">
+            <a href="https://github.com/Alan-Laredo" target="blank">
               <i class="fab fa-github" />
             </a>
-            <a href="https://www.linkedin.com/in/alanlaredo">
+            <a href="https://www.linkedin.com/in/alanlaredo" target="blank">
               <i class="fab fa-linkedin" />
             </a>
-            <a href="https://userstyles.org/users/796885">
+            <a href="https://userstyles.org/users/796885" target="blank">
               <i className="fab fa-stylish">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -33,7 +33,7 @@ export default class Cover extends Component {
                 </svg>
               </i>
             </a>
-            <a href="mailto:AlanLaredo@hotmail.com">
+            <a href="mailto:AlanLaredo@hotmail.com" target="blank">
               <i class="fas fa-envelope" />
             </a>
           </div>
