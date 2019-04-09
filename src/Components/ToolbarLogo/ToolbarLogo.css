@@ -15,3 +15,11 @@
   transition: 0.3s ease-in;
   cursor: pointer;
 }
+
+i {
+  width: 1.7rem;
+  height: 1.7rem;
+  font-size: 1.7rem;
+  display: block;
+  margin: auto;
+}
