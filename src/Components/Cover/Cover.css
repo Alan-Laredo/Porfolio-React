@@ -75,7 +75,7 @@
   vertical-align: middle;
 }
 .icons a i:hover {
-  animation: pulse 2s infinite;
+  animation: pulse 1.5s infinite;
 }
 
 .Cover,
@@ -149,15 +149,15 @@
 
 @keyframes pulse {
   0% {
-    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4);
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
+    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0.8));
   }
   70% {
-    -moz-box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+    -webkit-filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0));
+    filter: drop-shadow(0px 0px 15px rgba(255, 255, 255, 0));
   }
   100% {
-    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    -webkit-filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
+    filter: drop-shadow(0px 0px 0px rgba(255, 255, 255, 0));
   }
 }
